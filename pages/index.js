@@ -44,16 +44,16 @@ export default function Home() {
           <AiFillGithub />
          </div>
          <div className='relative mx-auto bg-gradient-to-b  from-teal-300 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
-          <Image src={deved} layout='fill' objectFit='cover'/>
+          <Image alt ="foto" src={deved} layout='fill' objectFit='cover'/>
          </div>
         </section>
       <section>
         <div>
           <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I started my journey as a developer in august 2021 and since then, I've been learning and working hard
+              I started my journey as a developer in august 2021 and since then, I have been learning and working hard
               to improve my <span className="text-teal-500"> skills </span>.
-              My main interest is in Front End. I'm always looking for ideas to create dinamic and functional
+              My main interest is in Front End. I am always looking for ideas to create dinamic and functional
                <span className="text-teal-500"> websites</span>.
               
             </p>
@@ -63,7 +63,7 @@ export default function Home() {
         </div>
         <div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200'>
-            <Image src={code} width={100} height={100}/>
+            <Image src={code} alt="foto2" width={100} height={100}/>
             <h3 className='text-lg font-medium pt-8 pb-2'>Code your dream project</h3>
             <p className='py-2'>Do you have an idea for your next great website? Let´s make it a reality</p>
             <h4 className='text-teal-600 py-4'>Languages and Frameworks I often use:</h4>
@@ -80,18 +80,18 @@ export default function Home() {
           <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             You can find all of my projects on my 
               <span className="text-teal-500"> GitHub </span>(@queziaaquino).
-              I'm still in the learning process, but I invite you to see my evolution through my 
+              I am still in the learning process, but I invite you to see my evolution through my 
               <span className="text-teal-500"> repositories </span> .
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-             Here's some of my recent work:
+             Here is some of my recent work:
             </p>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className='basis-1/3 flex-1'><Image src={ft2} className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
-          <div className='basis-1/3 flex-1'><Image src={ft3} className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
-          <div className='basis-1/3 flex-1'><Image src={ft4} className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
-          <div className='basis-1/3 flex-1'><Image src={ft1} className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
+          <div className='basis-1/3 flex-1'><Image src={ft2} alt='foto3' className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
+          <div className='basis-1/3 flex-1'><Image src={ft3} alt='foto4' className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
+          <div className='basis-1/3 flex-1'><Image src={ft4} alt='foto5' className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
+          <div className='basis-1/3 flex-1'><Image src={ft1} alt='foto6' className='rounded-lg object cover' width={'100%'} height={'100%'} layout='responsive' /></div>
         </div>
       </section>
       </main>
